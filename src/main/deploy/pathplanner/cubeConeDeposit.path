@@ -1,0 +1,97 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 1.7772795640603167,
+        "y": 4.436550250772711
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.7936263110395254,
+        "y": 5.1666021394479165
+      },
+      "holonomicAngle": 180.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "setCube3Position",
+          "wait1Seconds",
+          "cubeDeposit",
+          "setStandbyPosition"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "after",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 6.83878224899307,
+        "y": 4.494829275372837
+      },
+      "prevControl": {
+        "x": 5.83878224899307,
+        "y": 4.494829275372837
+      },
+      "nextControl": {
+        "x": 7.83878224899307,
+        "y": 4.494829275372837
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 1.7772795640603167,
+        "y": 5.0363413790960605
+      },
+      "prevControl": {
+        "x": 3.4091602563931307,
+        "y": 4.835934978283258
+      },
+      "nextControl": null,
+      "holonomicAngle": 180.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "setCone3Position",
+          "wait1Seconds",
+          "coneDeposit"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    }
+  ],
+  "markers": [
+    {
+      "position": 0.7636363636363638,
+      "names": [
+        "runConeIntake3",
+        "setTippedConeIntakePosition"
+      ]
+    },
+    {
+      "position": 1.3636363636363635,
+      "names": [
+        "setStandbyPosition"
+      ]
+    }
+  ]
+}
